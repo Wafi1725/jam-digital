@@ -1,0 +1,25 @@
+body{
+    background-image: url("asset/background.avif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#jam{
+    backdrop-filter: blur(2px);
+    background-color: rgba(136, 134, 134, 0.200);
+    padding: 12px 20px;   
+    border-radius: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+}
